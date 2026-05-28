@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portofolio Saya</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-100 text-slate-800">
+
+  <nav class="bg-slate-900 text-white shadow-lg">
+    <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold">Portofolio Saya</h1>
+      <div class="space-x-4">
+        <a href="#tentang" class="hover:text-cyan-400">Tentang</a>
+        <a href="#skill" class="hover:text-cyan-400">Skill</a>
+        <a href="#projek" class="hover:text-cyan-400">Projek</a>
+        <a href="#kontak" class="hover:text-cyan-400">Kontak</a>
+      </div>
+    </div>
+  </nav>
+
+  <section class="bg-gradient-to-r from-cyan-500 to-blue-600 text-white">
+    <div class="max-w-6xl mx-auto px-6 py-20 grid md:grid-cols-2 gap-10 items-center">
+      <div>
+        <h2 class="text-4xl md:text-5xl font-bold mb-4">Halo, Saya Alya Sabrina Mahasiswa Sistem Informasi</h2>
+        <p class="text-lg mb-6">
+          Saya adalah mahasiswa yang tertarik pada pengembangan web, dan cara pembuatan web itu sendiri 
+          serta teknologi digital. Saya ingin belajar membuat website yang menarik,
+          responsif, dan mudah digunakan.
+        </p>
+        <a href="#projek" class="bg-white text-blue-600 font-semibold px-6 py-3 rounded-xl shadow hover:bg-slate-100">
+          Lihat Projek
+        </a>
+      </div>
+      <div class="flex justify-center">
+        <img
+          src="foto bg biru.jpeg"
+          alt="Foto Profil"
+          class="w-64 rounded-2xl shadow-2xl border-4 border-white"
+        />
+      </div>
+    </div>
+  </section>
+
+  <section id="tentang" class="max-w-6xl mx-auto px-6 py-16">
+    <h3 class="text-3xl font-bold mb-6 text-center">Tentang Saya</h3>
+    <div class="bg-white rounded-2xl shadow p-8">
+      <p class="text-lg leading-relaxed text-justify">
+        Nama saya Alya Sabrina. Saya merupakan mahasiswa yang memiliki minat
+        di bidang web development. Saya masih belajar menggunakan HTML, CSS, dan dasar
+        JavaScript untuk membuat tampilan website yang modern. Selain itu,
+        saya juga suka mempelajari framework seperti Bootstrap dan Tailwind CSS
+        untuk mempercepat proses pembuatan antarmuka web.
+      </p>
+    </div>
+  </section>
+
+  <section id="skill" class="bg-white py-16">
+    <div class="max-w-6xl mx-auto px-6">
+      <h3 class="text-3xl font-bold mb-10 text-center">Skill Saya</h3>
+      <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div class="bg-slate-100 p-6 rounded-2xl shadow hover:shadow-lg">
+          <h4 class="text-xl font-semibold mb-2">Python</h4>
+          <p>mampu menggunakan python dasar.</p>
+        </div>
+        <div class="bg-slate-100 p-6 rounded-2xl shadow hover:shadow-lg">
+          <h4 class="text-xl font-semibold mb-2">HTML</h4>
+          <p>dasar HTML</p>
+        </div>
+        <div class="bg-slate-100 p-6 rounded-2xl shadow hover:shadow-lg">
+          <h4 class="text-xl font-semibold mb-2">CSS</h4>
+          <p>dasar css</p>
+        </div>
+        <div class="bg-slate-100 p-6 rounded-2xl shadow hover:shadow-lg">
+          <h4 class="text-xl font-semibold mb-2">tailwindcss</h4>
+          <p>-</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projek" class="max-w-6xl mx-auto px-6 py-16">
+    <h3 class="text-3xl font-bold mb-10 text-center">Projek Saya</h3>
+    <div class="grid md:grid-cols-3 gap-6">
+      <div class="bg-white rounded-2xl shadow overflow-hidden">
+        <div class="p-6">
+          <h4 class="text-xl font-bold mb-2">-</h4>
+          <p class="mb-4">-</p>
+          <a href="#" class="text-cyan-600 font-semibold hover:underline">Lihat Detail</a>
+        </div>
+      </div>
+
+      <div class="bg-white rounded-2xl shadow overflow-hidden">
+        <div class="p-6">
+          <h4 class="text-xl font-bold mb-2">-</h4>
+          <p class="mb-4">-</p>
+          <a href="#" class="text-cyan-600 font-semibold hover:underline">Lihat Detail</a>
+        </div>
+      </div>
+
+      <div class="bg-white rounded-2xl shadow overflow-hidden">
+        <div class="p-6">
+          <h4 class="text-xl font-bold mb-2">-</h4>
+          <p class="mb-4">-</p>
+          <a href="#" class="text-cyan-600 font-semibold hover:underline">Lihat Detail</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="kontak" class="bg-slate-900 text-white py-16">
+    <div class="max-w-4xl mx-auto px-6 text-center">
+      <h3 class="text-3xl font-bold mb-6">Kontak</h3>
+      <p class="mb-2">Email: alyasabrinaya@email.com</p>
+      <p class="mb-2">Instagram: @alyyyyarn</p>
+      <p class="mb-6">No. HP: 08810811101014</p>
+      <a href="mailto:alyasabrinaya@email.com" class="bg-cyan-500 hover:bg-cyan-600 px-6 py-3 rounded-xl font-semibold">
+        Hubungi Saya
+      </a>
+    </div>
+  </section>
+
+</body>
+</html>
