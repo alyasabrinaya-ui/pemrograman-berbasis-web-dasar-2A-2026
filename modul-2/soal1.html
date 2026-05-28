@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kopskuy.ku</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f5eee6;
+      margin: 0;
+      color: #5a4e4e;
+    }
+
+    .header {
+      background-color: #a06032;
+      color: white;
+      text-align: center;
+      padding: 30px;
+    }
+
+    .menu {
+      padding: 20px;
+      text-align: center;
+    }
+
+    .card {
+      background-color: white;
+      width: 200px;
+      margin: 15px auto;
+      padding: 15px;
+      border-radius: 10px;
+      border: 1px solid #ccc;
+    }
+
+    .checkout {
+      background-color: #fff8f0;
+      margin: 20px;
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    input, select, textarea {
+      width: 100%;
+      padding: 8px;
+      margin-top: 5px;
+      margin-bottom: 15px;
+    }
+
+    button {
+      background-color: #6f4e37;
+      color: white;
+      border: none;
+      padding: 10px;
+      width: 100%;
+    }
+
+    footer {
+      background-color: #6f4e37;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    <h1>Kopskuy.ku</h1>
+    <p>Pesan kopi favoritmu di kopskuydengan mudah </p>
+  </div>
+
+  <div class="menu">
+    <h2>Menu Kopi</h2>
+
+    <div class="card">
+      <h3>Americano</h3>
+      <p>Rp18.000</p>
+    </div>
+
+    <div class="card">
+      <h3>kopi gula aren</h3>
+      <p>Rp23.000</p>
+    </div>
+
+    <div class="card">
+      <h3>Butterscotch latte </h3>
+      <p>Rp28.000</p>
+    </div>
+  </div>
+
+  <div class="checkout">
+    <h2>Form Checkout</h2>
+
+    <form>
+      <label>Nama</label>
+      <input type="text">
+
+      <label>Pilih Menu</label>
+      <select>
+        <option>americano</option>
+        <option>kopi gula aren </option>
+        <option>Butterscotch latte</option>
+      </select>
+
+      <label>Jumlah</label>
+      <input type="number">
+
+      <label>Alamat</label>
+      <textarea></textarea>
+
+      <button type="submit">Checkout</button>
+    </form>
+  </div>
+
+  <footer>
+    <p>Kopskuy.ku</p>
+  </footer>
+
+</body>
+</html>
